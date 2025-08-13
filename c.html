@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<script>
+			fetch('https://xbsjdpjjjrpmpwcyehrf.supabase.co/rest/v1/site?select=*',{headers:{'apikey':'sb_publishable_5SzXDyWj2JjjP6JEYLqmOA_Fq30KsLt'}}).then(res => res.json()).then(data => location.href = `https://[${data[0]['ip']}]:${data[0]['port']}/c`)
+		</script>
+	</head>
+	<body></body>
+</html>
